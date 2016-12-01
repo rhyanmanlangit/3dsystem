@@ -1,0 +1,287 @@
+html {
+  height: 100%;
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  min-height: 100%;
+  background: #fafcfe;
+}
+
+/* Copy & Lists */
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem;
+}
+/* Hug the block above you */
+.hug {
+  margin-top: 0;
+}
+
+/*blocks img*/
+.img-container .img-responsive{
+  display: inline-block;
+}
+
+.max-width{
+  width: 100%;
+}
+
+/*icons input*/
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 14px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+    color: #353635;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #353635;
+}
+
+/* dashboard content box */
+.content-box{
+  border: 1px solid #b5b7b8;
+  margin-bottom: 15px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.content-wrapper{
+  overflow: hidden;
+  margin: 0 15px 15px;
+  padding: 15px 0 0;
+}
+
+.content-bottom{
+  border-top: 1px solid #b5b7b8;
+  color: #072d4a;
+}
+
+.content-title{
+  margin: 0 0 15px;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  opacity: .7;
+}
+
+.content-sub{
+  line-height: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #a7a4a4;
+  font-weight: 100;
+}
+
+.section-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 0;
+  font-weight: 100;
+  margin: 0;
+  color: #414C59;
+  margin-bottom: 15px;
+}
+
+.content-box .panel{
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+  box-shadow: 0 0px 0px rgba(0,0,0,.05);
+  margin: 0;
+}
+
+.table-listing table{
+  margin: 0;
+}
+
+.table-listing table.table {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.table-listing table.table tr th {
+  color: #4b5056;
+  background-color: #f9fafe;
+}
+
+.table-listing table.table tr th, .table-listing table.table tr td{
+  vertical-align: middle;
+}
+
+
+/*customize margin and pads*/
+.mt0, .pt0{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mb0, .pb0{
+  margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.mt20{
+  margin-top: 20px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+/*hr divider*/
+.dashed-divider{
+  border-style: dashed;
+  margin: 10px 0;
+}
+
+/*required in form*/
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}

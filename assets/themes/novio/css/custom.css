@@ -1,0 +1,140 @@
+/*LOGINPAGE*/
+
+#Login{
+	background: #105d97;
+}
+.login-form {
+    padding: 50px;
+    margin-top: 15%;
+}
+.btn-login-n {
+    background: #072d4a;
+    padding: 10px 0;
+    color: #fff;
+}
+.branding-text{
+	color: #fff;
+    margin: 25px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nv-input {
+    background: #edefef;
+    border: 2px solid #737373;
+    height: 50px;
+}
+
+
+
+/*SIDEBAR-PANEL*/
+#side-navigation{
+    background: #fff;
+    height: 100vh;
+}
+
+#side-navigation ul.first-level{
+    margin: 0;
+    list-style-type: none;
+    padding-left: 20px; 
+}
+
+#side-navigation ul.first-level li{
+    padding: 0px;
+    line-height: 1.4rem;
+}
+
+#side-navigation ul.first-level li a{
+    color: #8da0aa;
+    font-size: 12px;
+}
+
+#side-navigation ul.first-level li a i{
+    float: right;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+#side-navigation ul.first-level li a.nav-block{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #171717;
+    font-size: 11px;
+}
+
+ul.second-level{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    font-size: 95%;
+}
+
+#side-navigation ul.first-level li ul.second-level li{
+    padding: 2px;
+}
+
+.client-logo {
+    background: #105d97;
+    padding: 5px 20px;
+}
+
+
+/*SUB-HEADER*/
+#sub-header {
+    height: 75px;
+    max-height: 75px;
+    background: #072d4a;
+}
+
+#user-panel{
+    margin-top: 30px;
+}
+
+#user-panel .user-name{
+    color: #ffffff;
+}
+
+.notification{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.sub-right-box {
+    border: 1px solid #031828;
+    padding: 8px 10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.sub-right-box i {
+    color: #01060a;
+    font-size: 20px;
+}
+
+/*DASHBOARD*/
+#dashboard{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*COMPONENTS*/
+
+.tool-search .cont{
+    float: right;
+}
+
+.tool-search .cont{
+    padding-right: 5px;
+}
+
+.tool-search .cont form input{
+    height: 30px;
+}
+
+.data-info {
+    margin: 0;
+    color: #636465;
+    font-size: 12px;
+    font-weight: 400;
+}
