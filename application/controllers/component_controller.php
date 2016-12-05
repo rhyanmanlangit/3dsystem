@@ -89,7 +89,6 @@ class component_controller extends CI_Controller {
 			'component_remarks' => $this->input->post('c_rermarks')
 			);
 		
-		echo '<pre>';
 		print_r($data);
 	}	
 }
